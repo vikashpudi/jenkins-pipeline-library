@@ -1,10 +1,10 @@
-def printmyname(name labelparam){
+def call(){
 pipeline{
-agent { label '${labelparam}' }
+agent { label 'bs1' }
 stages{
 stage('sample'){
   steps {
-                echo "i am ${name}"
+                echo "i am murali"
         }
     }
 }
