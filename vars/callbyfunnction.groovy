@@ -1,4 +1,4 @@
-def printmyname(name,labelparam){
+def printmyname(name labelparam){
 pipeline{
 agent { label '${labelparam}' }
 stages{
