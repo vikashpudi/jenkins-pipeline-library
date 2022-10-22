@@ -1,6 +1,6 @@
 def call(){
 pipeline{
-agent { label 'any' }
+agent { label 'bs1' }
 stages{
 stage('sample'){
   steps {
