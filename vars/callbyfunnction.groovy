@@ -1,6 +1,6 @@
 def printmyname(name,labelparam){
 pipeline{
-agent { label 'bs1' }
+agent { label '${labelparam}' }
 stages{
 stage('sample'){
   steps {
